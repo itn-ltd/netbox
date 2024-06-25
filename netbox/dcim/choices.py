@@ -1136,10 +1136,10 @@ class InterfaceTypeChoices(ChoiceSet):
             _('Coaxial'),
             (
                 (TYPE_DOCSIS, 'DOCSIS'),
-                (TYPE_SDI_HD, 'HD-SDI')
-                (TYPE_SDI_3G, 'SDI-3G')
-                (TYPE_SDI_6G, 'SDI-6G')
-                (TYPE_SDI_12G, 'SDI-12G')
+                (TYPE_SDI_HD, 'HD-SDI'),
+                (TYPE_SDI_3G, 'SDI-3G'),
+                (TYPE_SDI_6G, 'SDI-6G'),
+                (TYPE_SDI_12G, 'SDI-12G'),
             )
         ),
         (
