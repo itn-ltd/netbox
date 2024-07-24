@@ -940,6 +940,10 @@ class InterfaceTypeChoices(ChoiceSet):
 
     # Coaxial
     TYPE_DOCSIS = 'docsis'
+    TYPE_HD_SDI = 'hd-sdi'
+    TYPE_SDI_3G = 'sdi-3g'
+    TYPE_SDI_6G = 'sdi-6g'
+    TYPE_SDI_12G = 'sdi-12g'
 
     # PON
     TYPE_BPON = 'bpon'
@@ -1132,6 +1136,10 @@ class InterfaceTypeChoices(ChoiceSet):
             _('Coaxial'),
             (
                 (TYPE_DOCSIS, 'DOCSIS'),
+                (TYPE_HD_SDI, 'HD-SDI'),
+                (TYPE_SDI_3G, 'SDI-3G'),
+                (TYPE_SDI_6G, 'SDI-6G'),
+                (TYPE_SDI_12G, 'SDI-12G'),
             )
         ),
         (
